@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Note</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="outerdiv">
+        <h2>Make a Note...<span style="vertical-align: sub;" class="material-symbols-outlined">book</span></h2>
+        <div class="headdiv">
+            <input type="text" placeholder="Type here something.." id="inputsection">
+            <button class="plusdiv" onclick="addTask()"><span class="material-symbols-outlined">
+                add_circle
+                </span>
+            </button>
+        </div>
+
+
+        <p>Remaining Tasks</p>
+        <div class="notelist">
+            <ul id="list-container">
+                
+                <!-- <li>Hi</li>
+                <li>hlo</li>
+                <li>hlo</li>
+                <li class="checked">done</li> -->
+            </ul>
+        </div>
+<!-- 
+
+        <p>Completed task</p>
+        <div class="completedlist">
+            <ul>
+                <li>Hi</li>
+                <li>hlo</li>
+            </ul>
+        </div>
+    </div> -->
+    
+<script src="anim.js"></script>
+</body>
+</html>
